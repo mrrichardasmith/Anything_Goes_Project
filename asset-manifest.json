@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mrrichardasmith/Anything_Goes_Project/static/css/main.4ba6567b.chunk.css",
+    "main.css": "/mrrichardasmith/Anything_Goes_Project/static/css/main.cc75341c.chunk.css",
     "main.js": "/mrrichardasmith/Anything_Goes_Project/static/js/main.66c72a89.chunk.js",
     "main.js.map": "/mrrichardasmith/Anything_Goes_Project/static/js/main.66c72a89.chunk.js.map",
     "runtime-main.js": "/mrrichardasmith/Anything_Goes_Project/static/js/runtime-main.f1b60d0e.js",
@@ -10,13 +10,13 @@
     "static/js/3.59903adc.chunk.js": "/mrrichardasmith/Anything_Goes_Project/static/js/3.59903adc.chunk.js",
     "static/js/3.59903adc.chunk.js.map": "/mrrichardasmith/Anything_Goes_Project/static/js/3.59903adc.chunk.js.map",
     "index.html": "/mrrichardasmith/Anything_Goes_Project/index.html",
-    "static/css/main.4ba6567b.chunk.css.map": "/mrrichardasmith/Anything_Goes_Project/static/css/main.4ba6567b.chunk.css.map",
+    "static/css/main.cc75341c.chunk.css.map": "/mrrichardasmith/Anything_Goes_Project/static/css/main.cc75341c.chunk.css.map",
     "static/js/2.fd8d135c.chunk.js.LICENSE.txt": "/mrrichardasmith/Anything_Goes_Project/static/js/2.fd8d135c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1b60d0e.js",
     "static/js/2.fd8d135c.chunk.js",
-    "static/css/main.4ba6567b.chunk.css",
+    "static/css/main.cc75341c.chunk.css",
     "static/js/main.66c72a89.chunk.js"
   ]
 }
