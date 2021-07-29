@@ -1,0 +1,44 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container  {
+  width: 80%;
+  margin: auto;
+  border: solid black 2px;
+}
+
+.header {
+  text-align: center;
+  margin: 2rem;
+}
+
+.title  {
+  font-family: 'Style Script', cursive;
+  font-size: 3rem;
+}
+
+.description  {
+  font-family: 'Montserrat', sans-serif;
+}
