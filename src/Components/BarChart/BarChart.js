@@ -13,10 +13,10 @@ export default function BarChart(props)    {
     const chartConfig = {
         type: "bar",
         data: {
-          labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+          labels: ["Money", "Competition", "Academic", "Cameraderie", "Career", "Perspective"],
           datasets: [
             {
-              label: "# of Votes",
+              label: "Primary Motivation",
               data: [12, 19, 3, 5, 2, 3],
               backgroundColor: [
                 "rgba(255, 99, 132, 0.2)",
@@ -77,7 +77,7 @@ export default function BarChart(props)    {
     
     
     return  (
-        <div className="container border">
+        <div className="container">
             <div>
                 <canvas ref={chartContainer} />
             </div>
