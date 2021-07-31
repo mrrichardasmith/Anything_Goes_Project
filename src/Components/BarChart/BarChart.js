@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Chart.css';
+import './BarChart.css';
 import Chartjs from 'chart.js/auto';
 
 
-export default function Chart(props)    {
+export default function BarChart(props)    {
 
     const chartContainer = useRef(null);
     const [chartInstance, setChartInstance] = useState(null);
@@ -77,14 +77,11 @@ export default function Chart(props)    {
     
     
     return  (
-        <div className="container">
-            <h2 className="chart">
-                Create a chart component from a Faker.js data source
-            </h2>
+        <div className="container border">
             <div>
                 <canvas ref={chartContainer} />
             </div>
-            <button type="submit" onClick={onButtonClick}>Submit</button>
+              <div className="button" type="submit" onClick={onButtonClick}>Change Data</div>
         </div>
     )
 }

@@ -1,0 +1,33 @@
+.chart  {
+    text-align: left;
+    background-color: orange;
+    color: black;
+    padding: 3rem;
+    margin: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.button {
+        border-radius: 5px;
+        padding: 7px 40px; 
+        cursor: pointer;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(75, 192, 192, 0.5);
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        border: 1px solid #fff;
+        box-shadow: 2px 2px 5px #AFE9FF;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s; 
+           
+}
+
+.button:hover {
+    color: #006398;
+    border: 1px solid #006398;
+    box-shadow: 2px 2px 20px #AFE9FF;
+}
