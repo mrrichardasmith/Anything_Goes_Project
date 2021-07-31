@@ -4,6 +4,7 @@ import ChartLibrary from 'chart.js/auto';
 
 import BarChart from '../BarChart/BarChart';
 import Table from '../Table/Table';
+import RadarChart from '../RadarChart/RadarChart';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <br />
       </div>
       <BarChart />
+      <RadarChart />
       <Table />
 
     </div>
