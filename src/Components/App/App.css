@@ -30,9 +30,12 @@ img {
 
 .row  {
   display: flex;
-  width: 50%;
   justify-content: space-around;
   margin: auto;
+}
+
+.nav  {
+  width: 60%;
 }
 
 .header {
@@ -47,4 +50,10 @@ img {
 
 .description  {
   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .nav  {
+    width: 90%;
+  }
 }

@@ -25,7 +25,7 @@ export default function App() {
         <Router>
           <div>
             <nav>
-              <ul className="row">
+              <ul className="row nav">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
