@@ -28,6 +28,13 @@ img {
   margin: auto;
 }
 
+.row  {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin: auto;
+}
+
 .header {
   text-align: center;
   margin: 2rem;
