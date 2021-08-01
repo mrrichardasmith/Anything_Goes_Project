@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Anything_Goes_Project/static/css/main.ce04c7a4.chunk.css",
-    "main.js": "/Anything_Goes_Project/static/js/main.6904bb1f.chunk.js",
-    "main.js.map": "/Anything_Goes_Project/static/js/main.6904bb1f.chunk.js.map",
-    "runtime-main.js": "/Anything_Goes_Project/static/js/runtime-main.3bab6d38.js",
-    "runtime-main.js.map": "/Anything_Goes_Project/static/js/runtime-main.3bab6d38.js.map",
-    "static/js/2.20f59fe0.chunk.js": "/Anything_Goes_Project/static/js/2.20f59fe0.chunk.js",
-    "static/js/2.20f59fe0.chunk.js.map": "/Anything_Goes_Project/static/js/2.20f59fe0.chunk.js.map",
-    "static/js/3.d7b282d1.chunk.js": "/Anything_Goes_Project/static/js/3.d7b282d1.chunk.js",
-    "static/js/3.d7b282d1.chunk.js.map": "/Anything_Goes_Project/static/js/3.d7b282d1.chunk.js.map",
+    "main.css": "/Anything_Goes_Project/static/css/main.b24e2728.chunk.css",
+    "main.js": "/Anything_Goes_Project/static/js/main.b3457f02.chunk.js",
+    "main.js.map": "/Anything_Goes_Project/static/js/main.b3457f02.chunk.js.map",
+    "runtime-main.js": "/Anything_Goes_Project/static/js/runtime-main.7b48e68f.js",
+    "runtime-main.js.map": "/Anything_Goes_Project/static/js/runtime-main.7b48e68f.js.map",
+    "static/js/2.74f464de.chunk.js": "/Anything_Goes_Project/static/js/2.74f464de.chunk.js",
+    "static/js/2.74f464de.chunk.js.map": "/Anything_Goes_Project/static/js/2.74f464de.chunk.js.map",
+    "static/js/3.7c232eb5.chunk.js": "/Anything_Goes_Project/static/js/3.7c232eb5.chunk.js",
+    "static/js/3.7c232eb5.chunk.js.map": "/Anything_Goes_Project/static/js/3.7c232eb5.chunk.js.map",
     "index.html": "/Anything_Goes_Project/index.html",
-    "static/css/main.ce04c7a4.chunk.css.map": "/Anything_Goes_Project/static/css/main.ce04c7a4.chunk.css.map",
-    "static/js/2.20f59fe0.chunk.js.LICENSE.txt": "/Anything_Goes_Project/static/js/2.20f59fe0.chunk.js.LICENSE.txt"
+    "static/css/main.b24e2728.chunk.css.map": "/Anything_Goes_Project/static/css/main.b24e2728.chunk.css.map",
+    "static/js/2.74f464de.chunk.js.LICENSE.txt": "/Anything_Goes_Project/static/js/2.74f464de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3bab6d38.js",
-    "static/js/2.20f59fe0.chunk.js",
-    "static/css/main.ce04c7a4.chunk.css",
-    "static/js/main.6904bb1f.chunk.js"
+    "static/js/runtime-main.7b48e68f.js",
+    "static/js/2.74f464de.chunk.js",
+    "static/css/main.b24e2728.chunk.css",
+    "static/js/main.b3457f02.chunk.js"
   ]
 }
