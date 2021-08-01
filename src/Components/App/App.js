@@ -5,6 +5,7 @@ import ChartLibrary from 'chart.js/auto';
 import BarChart from '../BarChart/BarChart';
 import Table from '../Table/Table';
 import RadarChart from '../RadarChart/RadarChart';
+import PolarArea from '../PolarArea/PolarArea';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </div>
       <BarChart />
       <RadarChart />
+      <PolarArea />
       <Table />
 
     </div>

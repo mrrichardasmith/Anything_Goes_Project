@@ -16,12 +16,12 @@ export default function RadarChart(props)  {
         labels: ["Eating", ["Drinking", "water"], "Sleeping", "Designing", "Coding", "Cycling"],
         datasets: [
             {
-                label: "1",
+                label: "Jack",
                 data: [65, 59, 90, 81, 56, 55],
                 backgroundColor: 'rgba(153, 153, 255, 0.1)'
             },
             {
-                label: "2",
+                label: "Jill",
                 data: [28, 48, 40, 19, 96, 27],
                 backgroundColor: 'rgba(255, 153, 153, 0.1)'
             }
@@ -32,6 +32,16 @@ export default function RadarChart(props)  {
         type: 'radar',
         data: data,
         options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'top',
+            },
+            title: {
+              display: true,
+              text: 'Radar Chart'
+            }
+          },
           elements: {
             line: {
               borderWidth: 3
@@ -61,7 +71,16 @@ export default function RadarChart(props)  {
             randomInt(),
             randomInt()
           ];
+          const data1 = [
+            randomInt(),
+            randomInt(),
+            randomInt(),
+            randomInt(),
+            randomInt(),
+            randomInt()
+          ]; 
           updateDataset(0, data);
+          updateDataset(1, data1);
       };
 
       
