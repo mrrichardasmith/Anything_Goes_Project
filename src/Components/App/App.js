@@ -6,6 +6,7 @@ import BarChart from "../BarChart/BarChart";
 import Table from "../Table/Table";
 import RadarChart from "../RadarChart/RadarChart";
 import Nav from "../NavBar/Nav";
+import Counter from "../../features/counter/counter"
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
         <BarChart />
         <RadarChart />
         <Table />
+        <Counter />
       </div>
+      
     </div>
   );
 }
