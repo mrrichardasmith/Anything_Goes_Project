@@ -1,6 +1,6 @@
 import './App.css';
 import faker from  'faker'; 
-import Table from '../Table/Table';
+import Tables from '../Table/LeesTableComponent';
 import FakerData from '../FakerData/FakerData';
 import Charts from '../Charts/Charts';
 import Home from '../Home/Home';
@@ -42,6 +42,9 @@ export default function App() {
                 <li>
                   <Link to="/faker_data">Faker</Link>
                 </li>
+                  <Link to='/tables'>Tables</Link>
+                <li>
+                </li>
               </ul>
             </nav>
             <Switch>
@@ -51,8 +54,8 @@ export default function App() {
               <Route path="/charts">
                 <Charts />
               </Route>
-              <Route path="/table">
-                <Table />
+              <Route path="/tables">
+                <Tables />
               </Route>
               <Route path="/faker_data">
                 <FakerData />
