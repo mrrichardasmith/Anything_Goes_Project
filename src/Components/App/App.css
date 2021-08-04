@@ -28,6 +28,17 @@ img {
   margin: auto;
 }
 
+.row  {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.nav  {
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
 .header {
   text-align: center;
   margin: 2rem;
@@ -40,4 +51,10 @@ img {
 
 .description  {
   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .nav  {
+    width: 90%;
+  }
 }
