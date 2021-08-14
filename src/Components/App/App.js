@@ -5,6 +5,7 @@ import FakerData from '../FakerData/FakerData';
 import Charts from '../Charts/Charts';
 import Home from '../Home/Home';
 import About from '../About/About';
+import Search from '../Search/Search';
 import {
   BrowserRouter as Router,
   Switch,
@@ -42,6 +43,9 @@ export default function App() {
                 <li>
                   <Link to="/faker_data">Faker</Link>
                 </li>
+                <li>
+                  <Link to="/search">Search</Link>
+                </li>
               </ul>
             </nav>
             <Switch>
@@ -56,6 +60,9 @@ export default function App() {
               </Route>
               <Route path="/faker_data">
                 <FakerData />
+              </Route>
+              <Route path="/search">
+                <Search />
               </Route>
               <Route path="/">
                 <Home />
