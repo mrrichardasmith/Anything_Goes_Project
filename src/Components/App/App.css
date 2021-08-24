@@ -23,6 +23,10 @@ img {
   height: auto;
 }
 
+.border {
+  border: solid black 2px;
+}
+
 .container  {
   width: 80%;
   margin: auto;

@@ -77,7 +77,7 @@ export default function BarChart(props)    {
     
     
     return  (
-        <div className="container">
+        <div>
             <div>
                 <canvas ref={chartContainer} />
             </div>
