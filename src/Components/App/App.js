@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './App.css';
 import faker from  'faker'; 
-import Table from '../Table/Table';
+import Tables from '../Table/LeesTableComponent';
 import FakerData from '../FakerData/FakerData';
 import Charts from '../Charts/Charts';
 import Home from '../Home/Home';
@@ -49,11 +49,16 @@ export default function App() {
                 <li>
                   <Link to="/faker_data">Faker</Link>
                 </li>
+<<<<<<< HEAD
+                  <Link to='/tables'>Tables</Link>
+                <li>
+=======
                 <li>
                   <Link to="/search">Search</Link>
                 </li>
                 <li>
                   <Link to="/dropdown">Drop Down</Link>
+>>>>>>> main
                 </li>
               </ul>
             </nav>
@@ -64,8 +69,8 @@ export default function App() {
               <Route path="/charts">
                 <Charts />
               </Route>
-              <Route path="/table">
-                <Table />
+              <Route path="/tables">
+                <Tables />
               </Route>
               <Route path="/faker_data">
                 <FakerData />
