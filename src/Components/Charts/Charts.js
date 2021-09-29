@@ -7,10 +7,17 @@ import RadarChart from '../RadarChart/RadarChart';
 
 export default function Charts(props)   {
     return  (
-        <>
-            <BarChart />
-            <PolarArea />
-            <RadarChart />
-        </>
+        <div className="container">
+            
+            <div className="row">
+                <PolarArea />
+                <RadarChart />
+            </div>
+            <div>
+                <BarChart />
+            </div>
+
+        </div>
+    
     )
 }
