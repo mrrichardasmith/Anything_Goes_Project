@@ -49,16 +49,8 @@ export default function App() {
                 <li>
                   <Link to="/faker_data">Faker</Link>
                 </li>
-<<<<<<< HEAD
-                  <Link to='/tables'>Tables</Link>
+                  <Link to="/tables" >Tables</Link>
                 <li>
-=======
-                <li>
-                  <Link to="/search">Search</Link>
-                </li>
-                <li>
-                  <Link to="/dropdown">Drop Down</Link>
->>>>>>> main
                 </li>
               </ul>
             </nav>
