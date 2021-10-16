@@ -8,6 +8,7 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import Search from '../Search/Search';
 import DropDown from '../DropDown/DropDown';
+import Fox from '../Fox/Fox';
 import {
   BrowserRouter as Router,
   Switch,
@@ -38,7 +39,7 @@ export default function App() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/fox">Fox Api</Link>
                 </li>
                 <li>
                   <Link to="/charts">Charts</Link>
@@ -55,7 +56,7 @@ export default function App() {
               </ul>
             </nav>
             <Switch>
-              <Route path="/about">
+              <Route path="/fox">
                 <About />
               </Route>
               <Route path="/charts">
