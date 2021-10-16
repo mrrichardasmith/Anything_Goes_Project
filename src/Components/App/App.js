@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './App.css';
 import faker from  'faker'; 
 import Tables from '../Table/LeesTableComponent';
@@ -20,7 +20,7 @@ import {
     
 export default function App() {
 
-
+  
       
   return (
         <>
@@ -57,7 +57,7 @@ export default function App() {
             </nav>
             <Switch>
               <Route path="/fox">
-                <About />
+                <Fox />
               </Route>
               <Route path="/charts">
                 <Charts />
