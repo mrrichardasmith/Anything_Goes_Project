@@ -44,7 +44,7 @@ export default function App() {
                   <Link to="/charts">Charts</Link>
                 </li>
                 <li>
-                  <Link to="/table">Data Table</Link>
+                  <Link to="/search">Debounce Search</Link>
                 </li>
                 <li>
                   <Link to="/faker_data">Faker</Link>
