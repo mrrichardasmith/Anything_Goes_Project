@@ -1,0 +1,25 @@
+.row    {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row div    {
+    padding: 20px;
+
+}
+
+.border {
+    border: solid green 2px;
+}
+
+.next button   {
+    min-width: 100%;
+    padding: 1rem;
+    border-radius: 25%;
+}
+
+.picture   {
+    max-height: 200px;
+}
+
